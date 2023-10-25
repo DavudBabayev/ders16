@@ -3,6 +3,11 @@ nav{
     height: 100px;
     background-color: rgba(34, 139, 34, 0.5);
     position: fixed;
+    .hr{
+        width: 100%;
+        height: 5px;
+        background-color: $col1;
+    }
     .ndiv{
         width: 100%;
         height: 100px;
