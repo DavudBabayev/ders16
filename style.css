@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.con {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0px 32px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(34, 139, 34, 0.5);
+  position: fixed;
+}
+nav .ndiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .ndiv .nd1 {
+  width: 10%;
+  height: 75px;
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+}
+nav .ndiv .nd1 a {
+  text-decoration: none;
+  color: white;
+}
+nav .ndiv .nd1 a h1 {
+  font-size: 38px;
+}
+nav .ndiv .nd2 {
+  width: 60%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+nav .ndiv .nd2 div {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+nav .ndiv .nd2 div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+nav .ndiv .nd2 div a:hover {
+  color: #d61c22;
+}
+nav .ndiv .nd3 {
+  width: 10%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .ndiv .nd3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+nav .ndiv .nd3 a:hover {
+  color: #d61c22;
+}
+
+header {
+  width: 100%;
+  height: 660px;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .hdiv {
+  width: 100%;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+header .hdiv p {
+  font-family: cursive;
+  font-size: 64px;
+}
+header .hdiv h1 {
+  font-size: 104px;
+  letter-spacing: 4px;
+}
+header .hdiv a {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #d61c22;
+}
+header .hdiv a:hover {
+  background-color: #d61c22;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(230, 230, 255);
+}
+section .sdiv {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+section .sdiv div {
+  width: 45%;
+  height: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+section .sdiv div h3 {
+  font-family: monospace;
+  font-size: 24px;
+  color: darkred;
+}
+section .sdiv div h2 {
+  font-size: 62px;
+}
+section .sdiv div a {
+  text-decoration: none;
+  color: black;
+}
+section .sdiv div a:hover {
+  color: #d61c22;
+}
+section .sdiv div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .sdiv div:hover img {
+  transform: scale(1.05);
+}/*# sourceMappingURL=style.css.map */
